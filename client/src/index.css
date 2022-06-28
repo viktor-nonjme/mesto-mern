@@ -1,0 +1,28 @@
+@import url(./assets/vendor/normalize.css);
+@import url(./assets/vendor/fonts.css);
+@import url(./assets/blocks/root/root.css);
+@import url(./assets/blocks/header/header.css);
+@import url(./assets/blocks/logo/logo.css);
+@import url(./assets/blocks/profile/profile.css);
+@import url(./assets/blocks/user-info/user-info.css);
+@import url(./assets/blocks/button/button.css);
+@import url(./assets/blocks/places-list/places-list.css);
+@import url(./assets/blocks/place-card/place-card.css);
+@import url(./assets/blocks/popup/popup.css);
+@import url(./assets/blocks/form/form.css);
+@import url(./assets/blocks/popup-image/popup-image.css);
+@import url(./assets/blocks/layout/layout.css);
+@import url(./assets/blocks/footer/footer.css);
+@import url(./assets/blocks/error/error.css);
+
+body {
+  background-color: #000;
+  font-family: 'Inter';
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

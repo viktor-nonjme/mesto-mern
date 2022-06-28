@@ -1,0 +1,34 @@
+.header {
+  min-height: 132px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #a5a5a5;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header__nav li {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__link-logout {
+  border: 1px solid #fff;
+  padding: 13px;
+  background-color: transparent;
+}
+
+.header__nav li:first-child {
+  margin-right: 13px;
+}
